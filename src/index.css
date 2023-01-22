@@ -179,6 +179,9 @@ ul {
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   padding-bottom: 40px;
+  background: url("./assets/img/play.png");
+  background-repeat: no-repeat;
+
 }
 
 .play::before {

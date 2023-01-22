@@ -1,6 +1,6 @@
 import React from 'react';
 import play from '../../../assets/img/play.png'
-import trofey from '../../../assets/img/trofey.png'
+
 import learn from '../../../assets/img/learn.png'
 import {Link} from "react-router-dom";
 const Home = () => {
@@ -25,9 +25,7 @@ const Home = () => {
                         Rating of <br />
                         preseason
                     </h2>
-                    <div className="rating__img">
-                        <img src={trofey} alt="" />
-                    </div>
+
                 </div>
                 <ul className="rating__table">
                     <li className="rating__item">Place</li>
