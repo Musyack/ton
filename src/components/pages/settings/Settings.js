@@ -1,6 +1,9 @@
 import React from 'react';
+import {useTelegram} from "../../../hooks/useTelegram";
 
 const Settings = () => {
+    const {user, onClose} = useTelegram()
+
     return (
         <>
             <main>
@@ -169,9 +172,9 @@ const Settings = () => {
                         <div className="settings__wallet">
                             <div className="wallet__left">
                                 <span className="wallet__id">Nickname</span>
-                                <span className="wallet__id--value">Example</span>
+                                <span className="wallet__id--value">{user.username}</span>
                             </div>
-                            <button className="btn-red">Exit</button>
+                            <button className="btn-red" onClick={onClose}>Exit</button>
                         </div>
                     </div>
                 </div>

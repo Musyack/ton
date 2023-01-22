@@ -13,7 +13,7 @@ const Home = () => {
                         Free <br />
                         <span>to play</span>
                     </h1>
-                    <button className="btn-red">Играть</button>
+                    <button className="btn-red">Play</button>
                 </div>
                 <div className="play__img">
                     <img src={play} alt="" />
@@ -22,8 +22,8 @@ const Home = () => {
             <div className="rating">
                 <div className="rating__top">
                     <h2 className="rating__title">
-                        Рейтинг <br />
-                        предсезонки
+                        Rating of <br />
+                        preseason
                     </h2>
                     <div className="rating__img">
                         <img src={trofey} alt="" />
@@ -79,11 +79,14 @@ const Home = () => {
                 <div className="learn__img">
                     <img src={learn} alt=""/>
                 </div>
+
                 <div className="learn__desc">
-                    <div className="learn_wrap">
-                        <h3 className="learn__title">Education</h3>
-                        <span className="learn__sub">Basic rules of the game</span>
-                    </div>
+                    <a href={'https://ton-caps.gitbook.io/ton-caps-whitepaper/'}>
+                        <div className="learn_wrap">
+                            <h3 className="learn__title">Education</h3>
+                            <span className="learn__sub">Basic rules of the game</span>
+                        </div>
+                    </a>
                     <svg width="30px" height="30px" viewBox="0 0 24 24" fill="#fff">
                         <path
                             d="M10 17L15 12"

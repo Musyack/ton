@@ -4,19 +4,20 @@ const Game = () => {
     return (
         <>
             <main>
+
                 <div className="opponent">
-                    <div className="opponent__container">
-                        <p className="opponent__text">
-                            В режиме случайной игры вы сможете найти оппонента для одной из
-                            собранных вами и гровых рук
-                        </p>
-                    </div>
-                    <h2 className="opponent__title">
-                        Подбор <br/>
-                        противника
-                    </h2>
-                    <a href={'/'} className="btn-red opponent__link">Начать</a>
+                    <p className="opponent__text">In the random game mode, you can find an opponent for one of
+                        your collected and playing hands</p>
+
                 </div>
+                <div className="opponent__contain">
+
+                    <h2 className="opponent__title opponent__text">
+                        Matchmaking
+                    </h2>
+                    <a href={'/'} className="btn-red opponent__link">Start</a>
+                </div>
+
             </main>
         </>
     );

@@ -9,7 +9,7 @@ const Footer = () => {
             <footer className="footer">
                 <nav className="footer__nav">
                     <ul className="footer__list">
-                        <li className="footer__item active">
+                        <li className="footer__item">
 
                             <Link to={'/'}>
                                 <svg
