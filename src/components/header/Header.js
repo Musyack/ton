@@ -1,14 +1,14 @@
 import React from 'react';
-import {useTelegram} from "../../hooks/useTelegram";
+// import {useTelegram} from "../../hooks/useTelegram";
 
-const Header = (props) => {
-    const {user} = useTelegram()
+const Header = () => {
+    // const {user} = useTelegram()
     return (
         <>
             <header className="header">
                 <div className="header__logo"></div>
-                {props.child}
-                <div className="header__wallet">{user.username}</div>
+
+                <div className="header__wallet">sss</div>
             </header>
         </>
     );
