@@ -8,13 +8,14 @@ import {useTelegram} from "../../hooks/useTelegram";
 const Header = () => {
 
 
-    const {onClose, tg} = useTelegram()
+    const {username} = useTelegram()
     return (
-        <div className={'header'}>
-            <button onClick={onClose}>Закрыть</button>
-            {/*<span className={'username'}>{user.username}</span>*/}
-            {tg.initData}
-        </div>
+
+            <header className="header">
+                <div className="header__logo"></div>
+                <div className="header__wallet">{username}</div>
+            </header>
+
     );
 };
 
