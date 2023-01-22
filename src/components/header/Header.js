@@ -3,7 +3,7 @@ import {useTelegram} from "../../hooks/useTelegram";
 
 const Header = () => {
     const {user} = useTelegram()
-    console.log(user.username)
+
     return (
         <>
             <header className="header">
