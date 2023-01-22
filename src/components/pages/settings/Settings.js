@@ -172,7 +172,7 @@ const Settings = () => {
                         <div className="settings__wallet">
                             <div className="wallet__left">
                                 <span className="wallet__id">Nickname</span>
-                                <span className="wallet__id--value">{user?.username}</span>
+                                <span className="wallet__id--value">{user}</span>
                             </div>
                             <button className="btn-red" onClick={onClose}>Exit</button>
                         </div>

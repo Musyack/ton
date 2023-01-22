@@ -9,7 +9,7 @@ const Header = () => {
             <header className="header">
                 <div className="header__logo"></div>
 
-                <div className="header__wallet">{user?.username}</div>
+                <div className="header__wallet">{user}</div>
             </header>
         </>
     );
