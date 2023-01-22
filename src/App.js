@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import Footer from "./components/footer/Footer";
 import Header from "./components/header/Header";
 import Home from "./components/pages/home/Home";
@@ -7,8 +7,15 @@ import Game from "./components/pages/game/Game";
 import MyPacks from "./components/pages/my-packs/MyPacks";
 import Packs from "./components/pages/packs/Packs";
 import Settings from "./components/pages/settings/Settings";
+import {useTelegram} from "./hooks/useTelegram";
 
 const App = () => {
+
+    const {tg} = useTelegram()
+
+    useEffect(() => {
+        tg.ready()
+    }, [tg])
     return (
         <>
             <Header/>
