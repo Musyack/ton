@@ -3,7 +3,15 @@ import play from '../../../assets/img/play.png'
 
 import learn from '../../../assets/img/learn.png'
 import {Link} from "react-router-dom";
+import {useTelegram} from "../../../hooks/useTelegram";
 const Home = () => {
+
+    const {tg} = useTelegram()
+
+    const makeDone  = () => {
+        tg.sendData(JSON.stringify({id: 1}))
+    }
+
     return (
         <>
         <main>
@@ -13,7 +21,7 @@ const Home = () => {
                         Free <br />
                         <span>to play</span>
                     </h1>
-                    <button className="btn-red">Play</button>
+                    <button onClick={makeDone} className="btn-red">Play</button>
                 </div>
                 <div className="play__img">
                     <img src={play} alt="" />
