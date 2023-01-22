@@ -10,9 +10,9 @@ const MyPacks = () => {
                         <img src={logo} alt=""/>
                     </div>
                     <div className="get-packs__info">
-                        <h2 className="get-packs__title">Здесь пусто</h2>
+                        <h2 className="get-packs__title">It's empty here</h2>
                         <Link className="get-packs__btn btn-red" to={'/buy'}>
-                            Где взять паки?
+                            Where to get packs?
                         </Link>
                     </div>
                 </div>

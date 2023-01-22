@@ -6,10 +6,10 @@ const Settings = () => {
             <main>
                 <div className="settings">
                     <div className="settings__top top-settings">
-                        <h2 className="settings__title">Настройки</h2>
+                        <h2 className="settings__title">Settings</h2>
                         <ul className="settings__list">
                             <li className="settings__item">
-                                <label htmlFor="volume" className="settings__label">Звуки</label>
+                                <label htmlFor="volume" className="settings__label">Sounds</label>
                                 <input
                                     className="settings__switch"
                                     type="checkbox"
@@ -18,7 +18,7 @@ const Settings = () => {
                                 />
                             </li>
                             <li className="settings__item">
-                                <label htmlFor="music" className="settings__label">Музыка</label>
+                                <label htmlFor="music" className="settings__label">Music</label>
                                 <input
                                     className="settings__switch"
                                     type="checkbox"
@@ -28,7 +28,7 @@ const Settings = () => {
                             </li>
                             <li className="settings__item">
                                 <label htmlFor="notifications" className="settings__label"
-                                >Уведомления</label
+                                >Notifications</label
                                 >
                                 <input
                                     className="settings__switch"
@@ -40,10 +40,10 @@ const Settings = () => {
                         </ul>
                     </div>
                     <div className="settings__middle middle-settings">
-                        <h2 className="settings__title">Комьюнити</h2>
+                        <h2 className="settings__title">Community</h2>
                         <ul className="settings__list">
                             <li className="settings__item">
-                                <a href="" htmlFor="volume" className="settings__label">Сайт</a>
+                                <a href="https://toncaps.io/eng" htmlFor="volume" className="settings__label">Site</a>
                                 <svg
                                     width="30px"
                                     height="30px"
@@ -54,16 +54,16 @@ const Settings = () => {
                                     <path
                                         d="M10 17L15 12"
                                         stroke="#fff"
-                                        stroke-width="2.5"
-                                        stroke-linecap="round"
-                                        stroke-linejoin="round"
+                                        strokeWidth="2.5"
+                                        strokeLinecap="round"
+                                        strokeLinejoin="round"
                                     />
                                     <path
                                         d="M15 12L10 7"
                                         stroke="#fff"
-                                        stroke-width="2.5"
-                                        stroke-linecap="round"
-                                        stroke-linejoin="round"
+                                        strokeWidth="2.5"
+                                        strokeLinecap="round"
+                                        strokeLinejoin="round"
                                     />
                                     <defs>
                                         <clipPath id="clip0_429_11254">
@@ -73,7 +73,7 @@ const Settings = () => {
                                 </svg>
                             </li>
                             <li className="settings__item">
-                                <a href="" htmlFor="music" className="settings__label">Telegram Eng</a>
+                                <a href="https://toncaps.io/eng" htmlFor="music" className="settings__label">Telegram Eng</a>
                                 <svg
                                     width="30px"
                                     height="30px"
@@ -84,16 +84,16 @@ const Settings = () => {
                                     <path
                                         d="M10 17L15 12"
                                         stroke="#fff"
-                                        stroke-width="2.5"
-                                        stroke-linecap="round"
-                                        stroke-linejoin="round"
+                                        strokeWidth="2.5"
+                                        strokeLinecap="round"
+                                        strokeLinejoin="round"
                                     />
                                     <path
                                         d="M15 12L10 7"
                                         stroke="#fff"
-                                        stroke-width="2.5"
-                                        stroke-linecap="round"
-                                        stroke-linejoin="round"
+                                        strokeWidth="2.5"
+                                        strokeLinecap="round"
+                                        strokeLinejoin="round"
                                     />
                                     <defs>
                                         <clipPath id="clip0_429_11254">
@@ -103,7 +103,7 @@ const Settings = () => {
                                 </svg>
                             </li>
                             <li className="settings__item">
-                                <a href="" htmlFor="notifications" className="settings__label">Twitter</a>
+                                <a href="/" htmlFor="notifications" className="settings__label">Twitter</a>
                                 <svg
                                     width="30px"
                                     height="30px"
@@ -114,16 +114,16 @@ const Settings = () => {
                                     <path
                                         d="M10 17L15 12"
                                         stroke="#fff"
-                                        stroke-width="2.5"
-                                        stroke-linecap="round"
-                                        stroke-linejoin="round"
+                                        strokeWidth="2.5"
+                                        strokeLinecap="round"
+                                        strokeLinejoin="round"
                                     />
                                     <path
                                         d="M15 12L10 7"
                                         stroke="#fff"
-                                        stroke-width="2.5"
-                                        stroke-linecap="round"
-                                        stroke-linejoin="round"
+                                        strokeWidth="2.5"
+                                        strokeLinecap="round"
+                                        strokeLinejoin="round"
                                     />
                                     <defs>
                                         <clipPath id="clip0_429_11254">
@@ -133,7 +133,7 @@ const Settings = () => {
                                 </svg>
                             </li>
                             <li className="settings__item">
-                                <a href="" htmlFor="notifications" className="settings__label">Discord</a>
+                                <a href="/" htmlFor="notifications" className="settings__label">Discord</a>
                                 <svg
                                     width="30px"
                                     height="30px"
@@ -144,16 +144,16 @@ const Settings = () => {
                                     <path
                                         d="M10 17L15 12"
                                         stroke="#fff"
-                                        stroke-width="2.5"
-                                        stroke-linecap="round"
-                                        stroke-linejoin="round"
+                                        strokeWidth="2.5"
+                                        strokeLinecap="round"
+                                        strokeLinejoin="round"
                                     />
                                     <path
                                         d="M15 12L10 7"
                                         stroke="#fff"
-                                        stroke-width="2.5"
-                                        stroke-linecap="round"
-                                        stroke-linejoin="round"
+                                        strokeWidth="2.5"
+                                        strokeLinecap="round"
+                                        strokeLinejoin="round"
                                     />
                                     <defs>
                                         <clipPath id="clip0_429_11254">
@@ -165,13 +165,13 @@ const Settings = () => {
                         </ul>
                     </div>
                     <div className="settings__bottom botom-settings">
-                        <h2 className="settings__title">Кошелек</h2>
+                        <h2 className="settings__title">Account</h2>
                         <div className="settings__wallet">
                             <div className="wallet__left">
-                                <span className="wallet__id">Wallet ID</span>
-                                <span className="wallet__id--value">EQB-...OrmL</span>
+                                <span className="wallet__id">Nickname</span>
+                                <span className="wallet__id--value">Example</span>
                             </div>
-                            <button className="btn-red">Выход</button>
+                            <button className="btn-red">Exit</button>
                         </div>
                     </div>
                 </div>

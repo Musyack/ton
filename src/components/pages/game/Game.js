@@ -15,7 +15,7 @@ const Game = () => {
                         Подбор <br/>
                         противника
                     </h2>
-                    <a href="" className="btn-red opponent__link">Начать</a>
+                    <a href={'/'} className="btn-red opponent__link">Начать</a>
                 </div>
             </main>
         </>
