@@ -46,7 +46,7 @@ const Settings = () => {
                         <h2 className="settings__title">Community</h2>
                         <ul className="settings__list">
                             <li className="settings__item">
-                                <a href="https://toncaps.io/eng" htmlFor="volume" className="settings__label">Site</a>
+                                <a href="https://toncap.io/" htmlFor="volume" className="settings__label">Site</a>
                                 <svg
                                     width="30px"
                                     height="30px"
@@ -76,7 +76,7 @@ const Settings = () => {
                                 </svg>
                             </li>
                             <li className="settings__item">
-                                <a href="https://toncaps.io/eng" htmlFor="music" className="settings__label">Telegram Eng</a>
+                                <a href="https://t.me/ton_caps" htmlFor="music" className="settings__label">Telegram Eng</a>
                                 <svg
                                     width="30px"
                                     height="30px"
@@ -106,7 +106,7 @@ const Settings = () => {
                                 </svg>
                             </li>
                             <li className="settings__item">
-                                <a href="/" htmlFor="notifications" className="settings__label">Twitter</a>
+                                <a href="https://twitter.com/ton_caps" htmlFor="notifications" className="settings__label">Twitter</a>
                                 <svg
                                     width="30px"
                                     height="30px"
@@ -136,7 +136,7 @@ const Settings = () => {
                                 </svg>
                             </li>
                             <li className="settings__item">
-                                <a href="/" htmlFor="notifications" className="settings__label">Discord</a>
+                                <a href="https://discord.gg/toncaps" htmlFor="notifications" className="settings__label">Discord</a>
                                 <svg
                                     width="30px"
                                     height="30px"
